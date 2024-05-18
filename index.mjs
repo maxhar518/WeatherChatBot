@@ -20,8 +20,8 @@ const getDate = (date) => {
    date.push(" 21:00:00")
    // console.log(date);
    date = date.join("")
-   console.log(date);
-   return date
+   // console.log(date);
+   // return date
 }
 
 app.post("/", async (req, res) => {
@@ -55,7 +55,7 @@ app.post("/", async (req, res) => {
                {
                   "text": {
                      "text": [
-                        `The Weather of ${body?.outputContexts[0]?.parameters?.geoCity} on ${body?.outputContexts[0]?.newDate} is ${weather.main.temp}°C`
+                        `The Weather of ${body?.outputContexts[0]?.parameters?.geoCity} on ${newDate} is ${weather.main.temp}°C`
                      ]
                   }
                }

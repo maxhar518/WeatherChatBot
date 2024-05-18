@@ -1,0 +1,16 @@
+{
+    "queryText": "hi",
+    "action": "input.welcome",
+    "parameters": {
+        "size": ""
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText":"hello, this is Weather Chatbot",
+    "fulfillmentMessages":[{"text":{"text":["hello, this is Weather Chatbot"]}}],
+    "outputContexts":[{"name":"projects/pizza-hut-aebk/agent/sessions/48b5a688-4087-a665-07ce-9cc7c3b66a18/contexts/defaultwelcomeintent-followup",
+    "lifespanCount":2,
+    "parameters":{"size":"","size.original":"","date":"2024-05-04T12: 00: 00-07: 00","date.original":"today","geo-city":"Karachi","geo-city.original":"karachi"}},
+    {"name":"projects/pizza-hut-aebk/agent/sessions/48b5a688-4087-a665-07ce-9cc7c3b66a18/contexts/__system_counters__",
+    "parameters":{"no-input":0,"no-match":0,"size":"","size.original":""}}],
+    "intent":{"name":"projects/pizza-hut-aebk/agent/intents/07223d70-bb1b-45ae-a5c7-541249f1f045",
+    "displayName":"Default Welcome Intent"},"intentDetectionConfidence":1,"languageCode":"en"}
